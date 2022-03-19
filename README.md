@@ -32,4 +32,6 @@
 - decorator
 
 # Part 5. Concurrency
-- 
+- iterator vs generator
+- Concurrency vs Parallelism
+- `itertools`
