@@ -27,4 +27,9 @@
 - `map`, `filter`, `lambda`
 - Callable
 - `partial`
+- Python scope, closure
+- `global` vs `local` vs `nonlocal`
+- decorator
+
+# Part 5. Concurrency
 - 
