@@ -1,6 +1,6 @@
 # InfLearn 강의 review
 * Lecture Name: 우리를 위한 프로그래밍: 파이썬 중급
-* Date: 2021.03.10 ~
+* Date: 2021.03.10 ~ 2021.03.20
 
 ## Part 1. Class & Method
 
@@ -41,3 +41,4 @@
 
 # Part 6. AsyncIO
 - Multi-scrapping
+- `BeautifulSoup`
