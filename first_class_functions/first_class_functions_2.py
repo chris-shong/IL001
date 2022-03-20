@@ -44,7 +44,7 @@ print('>>', c)
 # 서버 프로그래밍 -> 동시성(Concurrency) 제어 -> 메모리 공간에 여러 자원이 접군 -> 교착 상태(Dead Lock)
 # 메모리를 공유하지 않고 메시지 전달로 처리하기 위한 -> Erlang
 # Closure는 공유하되 변경되지 않는(Immutable, Read only) 적극적으로 사용 -> 함수형 프로그래밍
-# Closure는 불변자료구조 및 atom, STM -> 멀티thread(Coroutine) 프로그래밍에 강점
+# Closure는 불변자료구조 및 atom, STM -> multi-thread(Coroutine) 프로그래밍에 강점
 # 해당 영역의 상태를 기억하고 있다
 
 a = 100
