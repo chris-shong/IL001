@@ -12,9 +12,7 @@
 #       -> 리소스 전체에 락이 걸린다.
 # multiprocessing 사용, CPython 사용을 통해 GIL 우회
 
-# 2가지 패턴 실습
-# concurrent.futures 사용법1
-# concurrent.futures 사용법2
+# concurrent.futures map
 
 import time
 from concurrent import futures
@@ -34,9 +32,10 @@ def main():
 
     # 시작 시간
     start_tm = time.time()
+
     # 결과 건수
     # futures.ProcessPoolExecutor
-    with futures.ThreadPoolExecutor() as executor:
+    with futures.ThreadPoolExecutor(max_workers=worker) as executor:
         # map -> 작업 순서 유지, 즉시 실행
         result = executor.map(sum_generator, WORK_LIST)
 
