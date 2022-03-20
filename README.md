@@ -39,5 +39,5 @@
 - Concurrency(동시성)
 - `concurrent.futures` - `ThreadPoolExecutor`, `ProcessPoolExecutor`, `wait`, `as_completed`
 
-# Part 6. Async IO multi-scrapping
-- 
+# Part 6. AsyncIO
+- Multi-scrapping
